@@ -1,0 +1,29 @@
+# Visual Studio / Rider
+.vs/
+.idea/
+*.sln
+*.slnx
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.code-workspace
+*.DotSettings.user
+
+# Unreal Engine: generated content
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# Build artifacts (packaging); keep blacklists/icons if they ever appear
+Build/*
+!Build/**/*.ico
+!Build/*/PakBlacklist*.txt
+
+# OS junk
+Thumbs.db
+.DS_Store
